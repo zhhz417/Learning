@@ -1,2 +1,58 @@
-Fundamental:
-  main() method -- public static void main(String[] args){}
+﻿Fundamental:
+* main() method -- public static void main(String[] args){ }
+* Comment -- // single-line  /* */multi-line
+*  Variables -- String, int, float, char, boolean
+* Data Type 
+Primitive: (Integer: byte 1 (-127-128), short = 2 bytes (-32768 - 32767) , int 4, long 8), (Floating Point: float 4, double 8) boolean 1, char 2
+Non-Primitive: String, Arrays, Classes
+* Operators: -- +=, -=, *=, /=, %=, &=, ^=
+        &: 
+        
+Logical Operators: &&, ||, !
+* Loop: 
+break;  continue;
+   * while(condition) { }
+   * do { } while(condition) --- the loop do at least once, even if the condition is false
+   * for (initial, boolean expression, update){ } 
+for (int x = 10; x < 20; x++){ }
+   * for(int x : numbers){ System.out.print(x); } --- print all members in numbers 
+* If(){ } else if(){ } else{ }
+* switch(expression){case x1: … break; case x2: … break; default: optional, if there is no case match.}
+
+
+
+
+String: 
+* 11 ways to construct String 
+  
+
+* .length();  .toUpperCase();  .toLowerCase();  
+* Finding a String in a String:  s1.indexOf(“sss”); -- return the index position of the first occurrence of “sss”
+* Concatenation: +  or  s1.concat(s2);
+* String object cannot change, after assign; 
+use Stringbuffer: if its the single thread and a large number of data (eg. sBuffer.append(s); )
+StringBuilder: multi-thread and a large number of data.
+
+
+  
+
+
+
+Math:
+* .max(x,y);  .min(x,y);  sqrt(x);  abs(x);--- absolute value of x;  .random(); --- btn 0~1
+Array:
+* dataType[] arrayName = {  ,  ,  };
+* dataType[] arrayName = new dataType[arraySize];
+
+
+Apache Flume：precessing data stream event
+
+Spark
+
+Handoop
+
+Solr
+
+Elasticsearch
+
+使用内部类最吸引人的原因是：每个内部类都能独立地继承一个（接口的）实现，所以无论外围类是否已经继承了某个（接口的）实现，对于内部类都没有影响。
