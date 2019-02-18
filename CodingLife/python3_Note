@@ -1,0 +1,4 @@
+sorting list based on length of list:
+  myList.sort(lambda x,y: cmp(len(x), len(y)))
+  myList.sort(key = lambda s: len(s))
+  myList.sort(key = len)
