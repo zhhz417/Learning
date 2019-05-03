@@ -1,4 +1,16 @@
-sorting list based on length of list:
+* sorting list based on length of list:
   myList.sort(lambda x,y: cmp(len(x), len(y)))
   myList.sort(key = lambda s: len(s))
   myList.sort(key = len)
+
+* fromkeys(list, argument) --> create a new dict with keys(list), set values(argument)c of the key.
+  eg. a = {}
+      dict = a.fromkey(['a','b','c'], 9)
+      print(a) --> {}
+      print(dict) --> {'c': 9, 'b': 9, 'a': 9}
+ 
+* all() --> return True: if all elements in an iterable are true or iterable is empty.
+                   False: if any element in an iterable is false.(if it is dict, depends on the keys)
+
+* The keys of a dictionary can't be accessed using values.
+* 
