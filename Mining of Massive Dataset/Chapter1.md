@@ -2,9 +2,10 @@
 
 ------------
 
-- **Bonferroni Correction ** (theory)
-avoid the neg reflection about random data. eg. Some of random data is not relevant for the goal. Use expectation.
+- **Bonferroni Correction ** (theory)  
 
+  
+  avoid the neg reflection about random data. eg. Some of random data is not relevant for the goal. Use expectation.
 - **TF-IDF ** (Term Frequency-Inverse Document Frequency
 - **Hash Function** 
-input: hash-key, output: bucket number
+  input: hash-key, output: bucket number
