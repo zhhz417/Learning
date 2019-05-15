@@ -17,3 +17,6 @@ More detail on chapter 9
 ------------
 
 - **Shingling of Document**  
+	- **k-shingle:** any substring of length k within the document.
+	- **the value of k** depends on the specific keywords of the specific document. k should be picked large enough that the probability of any shingle appearing in any document is low. (eg. for email, usually using k=5, for large document usually k=9)
+	- **Hasing Shingles:**
