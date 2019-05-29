@@ -31,7 +31,6 @@ More detail on chapter 9
 	- **Minihasing:** For the characteristic matrix, pick a permutation of the rows. The mini hash value of any column(subset) is the value of the first row, in which the column has '1'.
 
 <center>
-
 | Element  |  S1 |S2 |S3 |S4   |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 |  b |  0 |  0 |  1 |  0 |
@@ -39,6 +38,5 @@ More detail on chapter 9
 |  a |  1 |  0 |  0 |  1 |
 |  d |  1 |  0 |  1 |  1 |
 |  c |  0 |  1 |  0 |  1 |
-
 </center>
 
