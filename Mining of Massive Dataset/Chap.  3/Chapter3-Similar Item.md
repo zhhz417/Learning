@@ -30,7 +30,6 @@ More detail on chapter 9
 	row: the universal set (the set of all elements), eg. S={a,b,c,d,e}.
 	- **Minihasing:** For the characteristic matrix, pick a permutation of the rows. The mini hash value of any column(subset) is the value of the first row, in which the column has '1'.
 
-<center>
 | Element  |  S1 |S2 |S3 |S4   |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 |  b |  0 |  0 |  1 |  0 |
@@ -38,5 +37,14 @@ More detail on chapter 9
 |  a |  1 |  0 |  0 |  1 |
 |  d |  1 |  0 |  1 |  1 |
 |  c |  0 |  1 |  0 |  1 |
-</center>
 
+- **3.3.3 Minihash and Jaccard Similarity**
+	- 两个集合经随机排列转换后得到的两个最小哈希值相等的概率 = 这两个集合的Jaccard相似度
+	 prove : Set S1, S2; three classes of rows.
+	 		Type X rows have 1 in both columns.
+			Type Y rows have 1 in one of the columns and 0 in the other.
+			Type Z rows have 0 in both columns.
+		SIM(S1, S2) = x/(x+y);  h(S1) = h(S2) = x/(x+y)
+		
+
+- **3.3.4 Minihash Signatures**
