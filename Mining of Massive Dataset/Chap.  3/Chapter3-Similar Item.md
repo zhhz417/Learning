@@ -46,5 +46,6 @@ More detail on chapter 9
 			Type Z rows have 0 in both columns.
 		SIM(S1, S2) = x/(x+y);  h(S1) = h(S2) = x/(x+y)
 		
-
 - **3.3.4 Minihash Signatures**
+	 - Characteristic Matrix M, select n different permutation of the row randomly.
+	 - The minihash signature for Set S: vector [h1(S), h2(S),..., hn(S)]
